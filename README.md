@@ -12,12 +12,12 @@ Döküman hazırlanırken birçok kaynak incelenmiş ve ortaya çıkan çalışm
 ##### 2) MySQL Veritabanını Süper Kullanıcı Harici Bir Kullanıcı Hakları ile Çalıştırmak 	
  MySQL'i çalıştırırken süper kullanıcı kullanılmamalıdır. MySQL için sistemde ayrı bir kullanıcı oluşturulmalıdır. Oluşturulan kullanıcı bir gruba yerleştirilmelidir. 
  
- 	'group' ile belirtilen değer yapılandırması gerçekleştirilmek istenen programın adı ya da group.
+ 'group' ile belirtilen değer yapılandırması gerçekleştirilmek istenen programın adı ya da group.
 Yapılandırma seçenekleri [group] ile başlayıp bir sonraki [group] adına kadar geçerli
 olmaktadır. Örneğin [mysqld] ile mysqld sunucu yazılımı için etkinleştirilmek istenen değerler
 belirtilecektir.  
 	
-	“user = kullanıcı_adı” değeri ile MySQL sunucu servisinin hangi kullanıcı hakları ile
+“user = kullanıcı_adı” değeri ile MySQL sunucu servisinin hangi kullanıcı hakları ile
 çalıştırılacağı belirlenmektedir. Burada root kullanıcı haklarına sahip olmayan MySQL
 grubuna üye MySQL kullanıcısı belirtilmiştir. 
   
