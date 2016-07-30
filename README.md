@@ -6,10 +6,10 @@ Bu linkte MySQL'de bulunan ve bilinen açıklıkların listesini içermektedir. 
 
 Döküman hazırlanırken birçok kaynak incelenmiş ve ortaya çıkan çalışma taranan kaynakların birleşimi olarak düşünülebilir.
 
-###### 1) MySQL Veritabanı Çalışma Ortamı Güvenliğinin Sağlanması	
+##### 1) MySQL Veritabanı Çalışma Ortamı Güvenliğinin Sağlanması	
    MySQL sunucu servisinin chroot ortamı altında çalışması sağlanarak, MySQL sunucu servisinin işletim sistemi     kaynaklarının tümüne erişimi kısıtlanmalıdır. Bu şekilde MySQL sunucu servisi sadece ihtiyaç duyacağı kaynaklara erişim sağlanmış olacaktır.
    
- ###### 2) MySQL Veritabanını Süper Kullanıcı Harici Bir Kullanıcı Hakları ile Çalıştırmak 	
+ ##### 2) MySQL Veritabanını Süper Kullanıcı Harici Bir Kullanıcı Hakları ile Çalıştırmak 	
  MySQL'i çalıştırırken süper kullanıcı kullanılmamalıdır. MySQL için sistemde ayrı bir kullanıcı oluşturulmalıdır. Oluşturulan kullanıcı bir gruba yerleştirilmelidir. 
  
  	'group' ile belirtilen değer yapılandırması gerçekleştirilmek istenen programın adı ya da group.
@@ -22,7 +22,7 @@ belirtilecektir.
 grubuna üye MySQL kullanıcısı belirtilmiştir. 
   
 
-###### 3)  MySQL Veritabanı Dosya ve Dizin Erişim Güvenliği	
+##### 3)  MySQL Veritabanı Dosya ve Dizin Erişim Güvenliği	
 	MySQL sunucu servisi tarafından kullanılan dizin ve dosya sahipliği hakları root kullanıcısına,
 grup sahipliği hakları ise MySQL sunucu servisini çalıştıran kullanıcının dahil olduğu gruba ait
 olmalıdır. MySQL sunucu servisinin mysql/mysql kullanıcı, grup ikilisi hakları ile çalıştırıldığı
@@ -40,5 +40,5 @@ belirlenmelidir.
 	chown root:mysql my.cnf 
     chmod 440 my.cnf 
 	 ```   
-###### 4) MySQL Veritabanı Servisinin Çalışacağı IP Adres Bilgisinin Belirlenmesi
+##### 4) MySQL Veritabanı Servisinin Çalışacağı IP Adres Bilgisinin Belirlenmesi
 
