@@ -9,7 +9,7 @@ Döküman hazırlanırken birçok kaynak incelenmiş ve ortaya çıkan çalışm
 ##### 1) MySQL Veritabanı Çalışma Ortamı Güvenliğinin Sağlanması	
    MySQL sunucu servisinin chroot ortamı altında çalışması sağlanarak, MySQL sunucu servisinin işletim sistemi     kaynaklarının tümüne erişimi kısıtlanmalıdır. Bu şekilde MySQL sunucu servisi sadece ihtiyaç duyacağı kaynaklara erişim sağlanmış olacaktır.
    
- ##### 2) MySQL Veritabanını Süper Kullanıcı Harici Bir Kullanıcı Hakları ile Çalıştırmak 	
+##### 2) MySQL Veritabanını Süper Kullanıcı Harici Bir Kullanıcı Hakları ile Çalıştırmak 	
  MySQL'i çalıştırırken süper kullanıcı kullanılmamalıdır. MySQL için sistemde ayrı bir kullanıcı oluşturulmalıdır. Oluşturulan kullanıcı bir gruba yerleştirilmelidir. 
  
  	'group' ile belirtilen değer yapılandırması gerçekleştirilmek istenen programın adı ya da group.
