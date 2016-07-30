@@ -31,7 +31,7 @@ düşünüldüğünde örnek bir dosya/dizin sahipliği hakları aşağıdaki gi
 ```
 chown root:mysql [dosya/dizin]
 ```		
-    my.cnf” dosyasının sahipliği root kullanıcısı, grup sahipliği olarak ise MySQL sunucu
+my.cnf” dosyasının sahipliği root kullanıcısı, grup sahipliği olarak ise MySQL sunucu
 servisini çalıştıran kullanıcının ( Örneğin “mysql/mysql” kullanıcı/grup ikilisi ) dahil olduğu
 grup olarak yapılandırmalı ve erişim izinleri için ise sayısal notasyon olarak 440 olarak
 belirlenmelidir. 
@@ -40,7 +40,7 @@ belirlenmelidir.
 chown root:mysql my.cnf 
 chmod 440 my.cnf 
  ```   
-###### 4) MySQL Veritabanı Servisinin Çalışacağı IP Adres Bilgisinin Belirlenmesi	
+##### 4) MySQL Veritabanı Servisinin Çalışacağı IP Adres Bilgisinin Belirlenmesi	
 “bind-address= ip adres bilgisi” değeri ile MySQL sunucu servisinin bağlantıları dinleyeceği
 ip adres bilgisi tanımlanmaktadır. Ön tanımlı olarak MySQL sunucu yazılımı bütün ağ
 arayüzlerinden gelen bağlantıları kabul edecek şekilde yapılandırılmaktadır. Eğer MySQL
